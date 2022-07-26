@@ -1,0 +1,25 @@
+<% const basePath='.' ; const title='Home' ; const description='' ; const keyword='' ; %>
+  <!DOCTYPE html>
+  <html lang="ja">
+
+  <head>
+    <%- include('partials/_head', { basePath, title, description, keyword }); %>
+  </head>
+
+  <body>
+    <div class="l-wrapper">
+      <%- include('layout/_header', { basePath }); %>
+
+        <main class="l-main">
+          <!-- CONTENT -->
+          <section>
+
+          </section>
+          <!-- END CONTENT -->
+        </main>
+
+        <%- include('layout/_footer', { basePath }); %>
+    </div>
+  </body>
+
+  </html>
